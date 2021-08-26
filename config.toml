@@ -47,7 +47,7 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "sudo chown ethan-hanlon"
-    subtitle = "A simple, retro theme for Hugo"
+    subtitle = "Think *slightly* different"
     owner = "Ethan Hanlon"
     keywords = ""
     copyright = "© Ethan Hanlon, 2021"

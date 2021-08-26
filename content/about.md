@@ -10,7 +10,7 @@ My name is Ethan Hanlon and this is my personal blog, sudo chown ethan-hanlon. I
 
 I'm a Computer Science student at San Francisco State University and I have a passion for using programming to build cool stuff and advance justice in the world. I'm a fellowship candidate at the SFSU Innovation Entrepeneurship Fellowship Program, which allowed me to found my own company, Politifi (https://politifi.io)\.
 
-I also have interests in music, WGI color guard, gamining, and other stuff. I'll be posting about whatever interests me :)
+I also have interests in music, WGI color guard, gaming, and other stuff. I'll be posting about whatever interests me :)
 
 If you want to follow my travels and exploits, definitely follow me:
 - [**Twitter**] https://twitter.com/iam_EthanHanlon
