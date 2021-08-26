@@ -10,15 +10,11 @@ Here's some of the stuff I've made. I'll update this as I go along.
 
 ![Politifi Logo](https://www.politifi.io/assets/Politifi_SVG_White_Text.svg)
 
-**[Status]** In Progress
-
-**[Platform]** iOS, Android, Web
-
-**[Website]** https://politifi.io
-
-**[GitHub]** https://github.com/Politifi 
-
-**[Discord]** https://discord.gg/6XPmUskqxe
+- **[Status]** In Progress
+- **[Platform]** iOS, Android, Web
+- **[Website]** https://politifi.io
+- **[GitHub]** https://github.com/Politifi 
+- **[Discord]** https://discord.gg/6XPmUskqxe
 
 Politifi is the biggest project I'm working on right now, and the only closed-source thing I'm doing at the moment.
 
@@ -29,29 +25,23 @@ Politifi ran a test service for the Spring 2021 SFSU Associated Students electio
 Politifi is owned by Politifi, Inc., of which I serve as its CEO.
 
 ## PediaTrac
-**[Status]** Complete, may return to later
-
-**[Platform]** iOS
-
-**[GitHub]** https://github.com/OccultSlolem/PediaTrac-iOS
+- **[Status]** Complete, may return to later
+- **[Platform]** iOS
+- **[GitHub]** https://github.com/OccultSlolem/PediaTrac-iOS
 
 PediaTrac is a project I made for the 2021 SF Hacks Hackathon. I had to make it in less than 12 hours, since my team abandoned me on the second night of the competition. PediaTrac helps parents find out when they need to take their children into the pediatrician for their vaccines. If I ever return to this project, I'd add an app icon, push/email notifications, and more theming.
 
 ## OpenBowler
-**[Status]** Just starting out
-
-**[Platform]** macOS, tvOS
-
-**[GitHub]** https://github.com/OccultSlolem/OpenBowler
+- **[Status]** Just starting out
+- **[Platform]** macOS, tvOS
+- **[GitHub]** https://github.com/OccultSlolem/OpenBowler
 
 I worked at a bowling alley in my hometown for about 6 months and had the idea to rewrite the Brunswick bowling software suite for Apple platforms. The idea is to have a control desk and back desk program running on macOS, and scorers running on tvOS.
 
 ## OpenBonCalendrier
 
-**[Status]** Just starting out
-
-**[Platform]** iOS, iPadOS
-
-**[GitHub]** https://github.com/OccultSlolem/OpenBonCalendrier
+- **[Status]** Just starting out
+- **[Platform]** iOS, iPadOS
+- **[GitHub]** https://github.com/OccultSlolem/OpenBonCalendrier
 
 I don't like any of the free scheduler apps on the App Store and I don't feel like paying money for one, so I decided to write my own instead. You'll be able to keep track of when you need to be in class, get reminders for homework, and track other school stuff.
