@@ -17,6 +17,15 @@ hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
 
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
 ### macOS ###
 # General
 .DS_Store
