@@ -1,6 +1,6 @@
 +++
 title = "On the (Dubious) Use Cases of Blockchain: A Linguistic Argument"
-date = "2022-01-20"
+date = "2022-01-25"
 author = "Ethan Hanlon"
 description = "Wow, it's been way too long since I've updated this. Where better to start than tackling controversial developer opinions!"
 +++
