@@ -40,8 +40,8 @@ paginate = 5
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
-  site = ""
+  creator = "Ethan Hanlon"
+  site = "https://ethan-hanlon.xyz"
 
 [languages]
   [languages.en]
@@ -50,7 +50,7 @@ paginate = 5
     subtitle = "Think *slightly* different"
     owner = "Ethan Hanlon"
     keywords = ""
-    copyright = "© Ethan Hanlon, 2021"
+    copyright = "© Ethan Hanlon, 2023"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"

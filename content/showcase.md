@@ -6,6 +6,21 @@ author: "Ethan Hanlon"
 
 Here's some of the stuff I've made. I'll update this as I go along.
 
+## Markup Master
+
+![Markup Masketer Logo](https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/markupmaster.png?alt=media&token=b1074740-7e5a-440c-bbff-fe5927bd9a65)
+
+![Screenshot](https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/MarkupMasterScreenshot.png?alt=media&token=28ab688d-b7a1-4be3-a4ff-9a6f507ee5a9)
+
+- **[Status]** Soon to be live
+- **[Platform]** Web
+- **[Website]** https://markupmaster.xyz
+- **[Discord]** https://discord.gg/Ar3vguwN3f
+
+Markup Master is a GPT-Based HTML, CSS, and JavaScript generator. It's a pretty awesome system - you just tell it what you want to make (for example, "A pong clone" or "A blog with a modern UI") and it builds you all the code you need to get started. It's all in vanilla, so you don't need to fuss around with frameworks or anything to get started, though I plan to add support for creating websites on the React, Vue, and (my personal favorite) Svelte frameworks in the near future.
+
+I built this thing because I can tell you from experience that it is so  easy to fall into creative block when you're starting to build a website. I built a [very rough version](https://devpost.com/software/leviathan-fe6g7l) of the system over a weekend for Stanford's TreeHacks hackathon and have since refined it into the version it is today. While it is still in beta, I plan to add more features including additional frameworks to build for, deploying websites straight from the service, and creating a repository for you to put straight into your GitHub or Git provider of your choice.
+
 ## Politifi
 
 ![Politifi Logo](https://www.politifi.io/assets/Politifi_SVG_White_Text.svg)
@@ -25,23 +40,8 @@ Politifi ran a test service for the Spring 2021 SFSU Associated Students electio
 Politifi is owned by Politifi, Inc., of which I serve as its CEO.
 
 ## PediaTrac
-- **[Status]** Complete, may return to later
+- **[Status]** Complete
 - **[Platform]** iOS
 - **[GitHub]** https://github.com/OccultSlolem/PediaTrac-iOS
 
 PediaTrac is a project I made for the 2021 SF Hacks Hackathon. I had to make it in less than 12 hours, since my team abandoned me on the second night of the competition. PediaTrac helps parents find out when they need to take their children into the pediatrician for their vaccines. If I ever return to this project, I'd add an app icon, push/email notifications, and more theming.
-
-## OpenBowler
-- **[Status]** Just starting out
-- **[Platform]** macOS, tvOS
-- **[GitHub]** https://github.com/OccultSlolem/OpenBowler
-
-I worked at a bowling alley in my hometown for about 6 months and had the idea to rewrite the Brunswick bowling software suite for Apple platforms. The idea is to have a control desk and back desk program running on macOS, and scorers running on tvOS.
-
-## OpenBonCalendrier
-
-- **[Status]** Just starting out
-- **[Platform]** iOS, iPadOS
-- **[GitHub]** https://github.com/OccultSlolem/OpenBonCalendrier
-
-I don't like any of the free scheduler apps on the App Store and I don't feel like paying money for one, so I decided to write my own instead. You'll be able to keep track of when you need to be in class, get reminders for homework, and track other school stuff.

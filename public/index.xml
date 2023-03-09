@@ -15,83 +15,6 @@
       
       <guid>/contact/</guid>
       <description>[Email] me@ethan-hanlon.xyz Probably the best way to reach me. [LinkedIn] https://www.linkedin.com/in/ethan-hanlon-6688491a6/ I accept connections with people I&amp;rsquo;ve met or had enough interaction with to consider a professional contact. [Discord] If we&amp;rsquo;re scheduled to meet, you can email me for my Discord. I try to keep it for people who really need to communicate with me that way. [Social Media] See about page I usually respond to DMs, but would prefer to talk through email if you&amp;rsquo;re reaching out of the blue.</description>
-      <content>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Email]&lt;/strong&gt; &lt;a href=&#34;mailto:me@ethan-hanlon.xyz&#34;&gt;me@ethan-hanlon.xyz&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Probably the best way to reach me.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[LinkedIn]&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/ethan-hanlon-6688491a6/&#34;&gt;https://www.linkedin.com/in/ethan-hanlon-6688491a6/&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;I accept connections with people I&amp;rsquo;ve met or had enough interaction with to consider a professional contact.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Discord]&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;If we&amp;rsquo;re scheduled to meet, you can email me for my Discord. I try to keep it for people who really need to communicate with me that way.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Social Media]&lt;/strong&gt; &lt;a href=&#34;https://ethan-hanlon.xyz/about&#34;&gt;See about page&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;I usually respond to DMs, but would prefer to talk through email if you&amp;rsquo;re reaching out of the blue.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;pgp-key&#34;&gt;PGP Key&lt;/h1&gt;
-&lt;p&gt;If you absolutely have to encrypt or sign a message, use this key:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
-
-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
-iz7NNxAsPH4bHg==
-=KZmH
------END PGP PUBLIC KEY BLOCK-----
-&lt;/code&gt;&lt;/pre&gt;</content>
     </item>
     
     <item>
@@ -102,17 +25,6 @@ iz7NNxAsPH4bHg==
       <guid>/about/</guid>
       <description>Hi there My name is Ethan Hanlon and this is my personal blog, sudo chown ethan-hanlon. I&amp;rsquo;ll use it to talk about whatever stuff is on my mind - technical stuff, thoughts, travels, whatnot. I&amp;rsquo;ll try to post weekly updates, so definitely stay tuned.
 I&amp;rsquo;m a Computer Science student at San Francisco State University and I have a passion for using programming to build cool stuff and advance justice in the world.</description>
-      <content>&lt;h1 id=&#34;hi-there&#34;&gt;Hi there&lt;/h1&gt;
-&lt;p&gt;My name is Ethan Hanlon and this is my personal blog, sudo chown ethan-hanlon. I&amp;rsquo;ll use it to talk about whatever stuff is on my mind - technical stuff, thoughts, travels, whatnot. I&amp;rsquo;ll try to post weekly updates, so definitely stay tuned.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m a Computer Science student at San Francisco State University and I have a passion for using programming to build cool stuff and advance justice in the world. I&amp;rsquo;m a fellowship candidate at the SFSU Innovation Entrepeneurship Fellowship Program, which allowed me to found my own company, Politifi (&lt;a href=&#34;https://politifi.io&#34;&gt;https://politifi.io&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;I also have interests in music, WGI color guard, gaming, and other stuff. I&amp;rsquo;ll be posting about whatever interests me :)&lt;/p&gt;
-&lt;p&gt;If you want to follow my travels and exploits, definitely follow me:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[&lt;strong&gt;Twitter&lt;/strong&gt;] &lt;a href=&#34;https://twitter.com/iam_EthanHanlon&#34;&gt;https://twitter.com/iam_EthanHanlon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[&lt;strong&gt;Instagram&lt;/strong&gt;] &lt;a href=&#34;https://www.instagram.com/iam_ethanhanlon/&#34;&gt;https://www.instagram.com/iam_ethanhanlon/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[&lt;strong&gt;GitHub&lt;/strong&gt;] &lt;a href=&#34;https://github.com/OccultSlolem&#34;&gt;https://github.com/OccultSlolem&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
     </item>
     
     <item>
@@ -122,8 +34,6 @@ I&amp;rsquo;m a Computer Science student at San Francisco State University and I
       
       <guid>/posts/hello/</guid>
       <description>This is my first post on this blog. I&amp;rsquo;ll be posting about tech, my own travels and projects, and whatever other stuff goes through my mind. I&amp;rsquo;ll try to deliver weekly updates, so stay tuned! Check out the about and showcase sections if you want more info about me.</description>
-      <content>&lt;p&gt;This is my first post on this blog. I&amp;rsquo;ll be posting about tech, my own travels and projects, and whatever other stuff goes through my mind. I&amp;rsquo;ll try to deliver weekly updates, so stay tuned! Check out the about and showcase sections if you want more info about me.&lt;/p&gt;
-</content>
     </item>
     
     <item>
@@ -133,44 +43,7 @@ I&amp;rsquo;m a Computer Science student at San Francisco State University and I
       
       <guid>/showcase/</guid>
       <description>Here&amp;rsquo;s some of the stuff I&amp;rsquo;ve made. I&amp;rsquo;ll update this as I go along.
-Politifi [Status] In Progress [Platform] iOS, Android, Web [Website] https://politifi.io [GitHub] https://github.com/Politifi [Discord] https://discord.gg/6XPmUskqxe Politifi is the biggest project I&amp;rsquo;m working on right now, and the only closed-source thing I&amp;rsquo;m doing at the moment.
-There&amp;rsquo;s a major problem in American politics these days: local, tribal, and state governments, which make a lot of the decisions that impact us day-to-day, simply don&amp;rsquo;t receive the attention they deserve in our social consciousness.</description>
-      <content>&lt;p&gt;Here&amp;rsquo;s some of the stuff I&amp;rsquo;ve made. I&amp;rsquo;ll update this as I go along.&lt;/p&gt;
-&lt;h2 id=&#34;politifi&#34;&gt;Politifi&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.politifi.io/assets/Politifi_SVG_White_Text.svg&#34; alt=&#34;Politifi Logo&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Status]&lt;/strong&gt; In Progress&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Platform]&lt;/strong&gt; iOS, Android, Web&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Website]&lt;/strong&gt; &lt;a href=&#34;https://politifi.io&#34;&gt;https://politifi.io&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[GitHub]&lt;/strong&gt; &lt;a href=&#34;https://github.com/Politifi&#34;&gt;https://github.com/Politifi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Discord]&lt;/strong&gt; &lt;a href=&#34;https://discord.gg/6XPmUskqxe&#34;&gt;https://discord.gg/6XPmUskqxe&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Politifi is the biggest project I&amp;rsquo;m working on right now, and the only closed-source thing I&amp;rsquo;m doing at the moment.&lt;/p&gt;
-&lt;p&gt;There&amp;rsquo;s a major problem in American politics these days: local, tribal, and state governments, which make a lot of the decisions that impact us day-to-day, simply don&amp;rsquo;t receive the attention they deserve in our social consciousness. Despite the efforts of many talented journalists and politicians, they simply don&amp;rsquo;t receive the attention they should. This is where Politifi comes in. To passerby, I usually describe Politifi as &amp;ldquo;Political Tinder,&amp;rdquo; but there&amp;rsquo;s much more to it than that. Politifi has a dual goal: to connect voters with political candidates, and to connect politicians with new voters, donors, and volunteers.&lt;/p&gt;
-&lt;p&gt;Politifi ran a test service for the Spring 2021 SFSU Associated Students election. Since then, I&amp;rsquo;ve taken it off the App Store while I do major renovations to the app.&lt;/p&gt;
-&lt;p&gt;Politifi is owned by Politifi, Inc., of which I serve as its CEO.&lt;/p&gt;
-&lt;h2 id=&#34;pediatrac&#34;&gt;PediaTrac&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Status]&lt;/strong&gt; Complete, may return to later&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Platform]&lt;/strong&gt; iOS&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[GitHub]&lt;/strong&gt; &lt;a href=&#34;https://github.com/OccultSlolem/PediaTrac-iOS&#34;&gt;https://github.com/OccultSlolem/PediaTrac-iOS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;PediaTrac is a project I made for the 2021 SF Hacks Hackathon. I had to make it in less than 12 hours, since my team abandoned me on the second night of the competition. PediaTrac helps parents find out when they need to take their children into the pediatrician for their vaccines. If I ever return to this project, I&amp;rsquo;d add an app icon, push/email notifications, and more theming.&lt;/p&gt;
-&lt;h2 id=&#34;openbowler&#34;&gt;OpenBowler&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Status]&lt;/strong&gt; Just starting out&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Platform]&lt;/strong&gt; macOS, tvOS&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[GitHub]&lt;/strong&gt; &lt;a href=&#34;https://github.com/OccultSlolem/OpenBowler&#34;&gt;https://github.com/OccultSlolem/OpenBowler&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I worked at a bowling alley in my hometown for about 6 months and had the idea to rewrite the Brunswick bowling software suite for Apple platforms. The idea is to have a control desk and back desk program running on macOS, and scorers running on tvOS.&lt;/p&gt;
-&lt;h2 id=&#34;openboncalendrier&#34;&gt;OpenBonCalendrier&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Status]&lt;/strong&gt; Just starting out&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Platform]&lt;/strong&gt; iOS, iPadOS&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[GitHub]&lt;/strong&gt; &lt;a href=&#34;https://github.com/OccultSlolem/OpenBonCalendrier&#34;&gt;https://github.com/OccultSlolem/OpenBonCalendrier&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I don&amp;rsquo;t like any of the free scheduler apps on the App Store and I don&amp;rsquo;t feel like paying money for one, so I decided to write my own instead. You&amp;rsquo;ll be able to keep track of when you need to be in class, get reminders for homework, and track other school stuff.&lt;/p&gt;
-</content>
+Markup Master [Status] Soon to be live [Platform] Web [Website] https://markupmaster.xyz [Discord] https://discord.gg/Ar3vguwN3f Markup Master is a GPT-Based HTML, CSS, and JavaScript generator. It&amp;rsquo;s a pretty awesome system - you just tell it what you want to make (for example, &amp;ldquo;A pong clone&amp;rdquo; or &amp;ldquo;A blog with a modern UI&amp;rdquo;) and it builds you all the code you need to get started.</description>
     </item>
     
   </channel>
