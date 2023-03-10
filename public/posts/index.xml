@@ -7,7 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Ethan Hanlon, 2023</copyright>
-    <lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markup Master: GPT, HTML, and Asking Nicely</title>
+      <link>/posts/markupmaster/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/markupmaster/</guid>
+      <description>Markup Master Link: https://markupmaster.xyz
+Personally I always struggle with the &amp;ldquo;developer&amp;rsquo;s block&amp;rdquo; problem whenever I do frontend development. I was recently given an opportunity to solve this issue somewhat with a hackathon project called Leviathan that built websites for you, but I wanted to expand on that project and hence, I&amp;rsquo;ve created Markup Master.
+Markup Master is a service that uses GPT (Generative Pre-trained Transformer) to create websites based on a prompt.</description>
+      <content>&lt;p&gt;&lt;strong&gt;Markup Master Link:&lt;/strong&gt; &lt;a href=&#34;https://markupmaster.xyz&#34;&gt;https://markupmaster.xyz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Personally I always struggle with the &amp;ldquo;developer&amp;rsquo;s block&amp;rdquo; problem whenever I do frontend development. I was recently given an opportunity to solve this issue somewhat with a hackathon project called &lt;a href=&#34;https://devpost.com/software/leviathan-fe6g7l&#34;&gt;Leviathan&lt;/a&gt; that built websites for you, but I wanted to expand on that project and hence, I&amp;rsquo;ve created &lt;strong&gt;Markup Master&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Markup Master is a service that uses GPT (Generative Pre-trained Transformer) to create websites based on a prompt. GPT is a type of artificial intelligence that has been trained on large amounts of text data and can generate new text based on that data.&lt;/p&gt;
+&lt;p&gt;To use Markup Master, you simply enter a prompt or a brief description of the website you want to create. This prompt can be anything from &amp;ldquo;I need a website for my restaurant&amp;rdquo; to &amp;ldquo;I want to create a portfolio website to showcase my work.&amp;rdquo; Once you enter your prompt, the GPT algorithm generates the necessary HTML, CSS, and JavaScript code to create your website.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/BlogImages%2FScreenshot%202023-03-10%20at%209.36.22%20AM.png?alt=media&#34; alt=&#34;Example prompt - &amp;amp;ldquo;A social media site for kitties&amp;amp;rdquo;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Right now, it just generates vanilla HTML, CSS, and JS all in the same file. The idea being was that if you want to get started with something, you can just throw the code in your editor and you don&amp;rsquo;t have to fuss around with frameworks or anything like that. Practically though, I&amp;rsquo;d certainly want it to be able to make code for my favorite frameworks, and you can probable guess based on those grayed out buttons that this is where I want to take the project in the future.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Future plans:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Phase 1.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Generate vanilla HTML (Done).&lt;/li&gt;
+&lt;li&gt;Generate React, Vue, and Svelte projects.&lt;/li&gt;
+&lt;li&gt;More customization options for the AI (creativity levels, specific scripts or keys you want to include, etc).&lt;/li&gt;
+&lt;li&gt;More customized advice about how to deploy and scale your website.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Phase 2.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Deploy your website straight to the internet from the site.&lt;/li&gt;
+&lt;li&gt;Premium in-app code editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Phase 3.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Refactor existing projects along the lines of your prompt.&lt;/li&gt;
+&lt;li&gt;More options for monitoring and testing your website.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is just a taste of some of the plans I have. I would like this service to evolve into a Swiss Army Knife for webdev, especially as a product that helps you get off the ground and helps get bast developer&amp;rsquo;s block.&lt;/p&gt;
+&lt;p&gt;As a thank you for reading this, &lt;strong&gt;the first 300 readers of this blog can get half off their first purchase of credits with the code HANLONBLOG&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m pretty excited that this thing is finally launching! I&amp;rsquo;m pretty satisfied with what I&amp;rsquo;ve built but there&amp;rsquo;s still rough edges that need to be polished and a &lt;em&gt;lot&lt;/em&gt; more features I can add. Stay tuned to see where this goes :]&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Hello, World!</title>
       <link>/posts/hello/</link>
