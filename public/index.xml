@@ -172,13 +172,13 @@ I&amp;rsquo;m a Computer Science student at San Francisco State University and I
       
       <guid>/showcase/</guid>
       <description>Here&amp;rsquo;s some of the stuff I&amp;rsquo;ve made. I&amp;rsquo;ll update this as I go along.
-Markup Master [Status] Soon to be live [Platform] Web [Website] https://markupmaster.xyz [Discord] https://discord.gg/Ar3vguwN3f Markup Master is a GPT-Based HTML, CSS, and JavaScript generator. It&amp;rsquo;s a pretty awesome system - you just tell it what you want to make (for example, &amp;ldquo;A pong clone&amp;rdquo; or &amp;ldquo;A blog with a modern UI&amp;rdquo;) and it builds you all the code you need to get started.</description>
+Markup Master [Status] Live [Platform] Web [Website] https://markupmaster.xyz [Discord] https://discord.gg/Ar3vguwN3f Markup Master is a GPT-Based HTML, CSS, and JavaScript generator. It&amp;rsquo;s a pretty awesome system - you just tell it what you want to make (for example, &amp;ldquo;A pong clone&amp;rdquo; or &amp;ldquo;A blog with a modern UI&amp;rdquo;) and it builds you all the code you need to get started.</description>
       <content>&lt;p&gt;Here&amp;rsquo;s some of the stuff I&amp;rsquo;ve made. I&amp;rsquo;ll update this as I go along.&lt;/p&gt;
 &lt;h2 id=&#34;markup-master&#34;&gt;Markup Master&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/markupmaster.png?alt=media&amp;amp;token=b1074740-7e5a-440c-bbff-fe5927bd9a65&#34; alt=&#34;Markup Masketer Logo&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/MarkupMasterScreenshot.png?alt=media&amp;amp;token=28ab688d-b7a1-4be3-a4ff-9a6f507ee5a9&#34; alt=&#34;Screenshot&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Status]&lt;/strong&gt; Soon to be live&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Status]&lt;/strong&gt; &lt;a href=&#34;https://markupmaster.xyz&#34;&gt;Live&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Platform]&lt;/strong&gt; Web&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Website]&lt;/strong&gt; &lt;a href=&#34;https://markupmaster.xyz&#34;&gt;https://markupmaster.xyz&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Discord]&lt;/strong&gt; &lt;a href=&#34;https://discord.gg/Ar3vguwN3f&#34;&gt;https://discord.gg/Ar3vguwN3f&lt;/a&gt;&lt;/li&gt;

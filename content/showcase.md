@@ -12,7 +12,7 @@ Here's some of the stuff I've made. I'll update this as I go along.
 
 ![Screenshot](https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/MarkupMasterScreenshot.png?alt=media&token=28ab688d-b7a1-4be3-a4ff-9a6f507ee5a9)
 
-- **[Status]** Soon to be live
+- **[Status]** [Live](https://markupmaster.xyz)
 - **[Platform]** Web
 - **[Website]** https://markupmaster.xyz
 - **[Discord]** https://discord.gg/Ar3vguwN3f
