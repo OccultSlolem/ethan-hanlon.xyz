@@ -16,7 +16,7 @@ To use Markup Master, you simply enter a prompt or a brief description of the we
 
 ![Example prompt - "A social media site for kitties"](https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/BlogImages%2FScreenshot%202023-03-10%20at%209.36.22%20AM.png?alt=media)
 
-Right now, it just generates vanilla HTML, CSS, and JS all in the same file. The idea being was that if you want to get started with something, you can just throw the code in your editor and you don't have to fuss around with frameworks or anything like that. Practically though, I'd certainly want it to be able to make code for my favorite frameworks, and you can probable guess based on those grayed out buttons that this is where I want to take the project in the future.
+Right now, it just generates vanilla HTML, CSS, and JS all in the same file. The idea being was that if you want to get started with something, you can just throw the code in your editor and you don't have to fuss around with frameworks or anything like that. Practically though, I'd certainly want it to be able to make code for my favorite frameworks, and you can probably guess based on those grayed out buttons that this is where I want to take the project in the future.
 
 **Future plans:**
 
