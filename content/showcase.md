@@ -17,9 +17,23 @@ Here's some of the stuff I've made. I'll update this as I go along.
 - **[Website]** https://markupmaster.xyz
 - **[Discord]** https://discord.gg/Ar3vguwN3f
 
+[Blog post](/posts/markupmaster)
+
 Markup Master is a GPT-Based HTML, CSS, and JavaScript generator. It's a pretty awesome system - you just tell it what you want to make (for example, "A pong clone" or "A blog with a modern UI") and it builds you all the code you need to get started. It's all in vanilla, so you don't need to fuss around with frameworks or anything to get started, though I plan to add support for creating websites on the React, Vue, and (my personal favorite) Svelte frameworks in the near future.
 
 I built this thing because I can tell you from experience that it is so  easy to fall into creative block when you're starting to build a website. I built a [very rough version](https://devpost.com/software/leviathan-fe6g7l) of the system over a weekend for Stanford's TreeHacks hackathon and have since refined it into the version it is today. While it is still in beta, I plan to add more features including additional frameworks to build for, deploying websites straight from the service, and creating a repository for you to put straight into your GitHub or Git provider of your choice.
+
+## SQLHammer
+![SQLHammer Screenshot](https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/BlogImages%2FScreenshot%202023-06-09%20at%2012.08.23%20PM.png?alt=media)
+
+- **[Status]** Live
+- **[Platform]** CLI
+- **[GitHub]**(https://github.com/OccultSlolem/SQLHammer)
+  
+[Blog post](/posts/sqlhammer)
+
+SQLHammer is a command line tool written in Python that can take a given template and structure a SQLite database around it. The real kicker is that you can insert mathematical models and introduce random variance into your data. This is a tool I built for a project I was working on at work, and I figured it would be useful to others as well.
+
 
 ## Politifi
 

@@ -9,6 +9,113 @@
     <copyright>© Ethan Hanlon, 2023</copyright>
     <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi there My name is Ethan Hanlon and this is my personal blog, sudo chown ethan-hanlon. The name is a spin on the chown command in Linux, which changes the owner of a file. It&amp;rsquo;s like you saying &amp;ldquo;I own this blog&amp;rdquo; and also a pun on my name. I&amp;rsquo;m a bit of a software nerd, so I thought it was a fitting name.
+I&amp;rsquo;ll use this space to talk about whatever stuff is on my mind - technical stuff, thoughts, travels, whatnot.</description>
+      <content>&lt;h1 id=&#34;hi-there&#34;&gt;Hi there&lt;/h1&gt;
+&lt;p&gt;My name is Ethan Hanlon and this is my personal blog, &lt;em&gt;sudo chown ethan-hanlon&lt;/em&gt;. The name is a spin on the &lt;code&gt;chown&lt;/code&gt; command in Linux, which changes the owner of a file. It&amp;rsquo;s like you saying &amp;ldquo;I own this blog&amp;rdquo; and also a pun on my name. I&amp;rsquo;m a bit of a software nerd, so I thought it was a fitting name.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll use this space to talk about whatever stuff is on my mind - technical stuff, thoughts, travels, whatnot. I&amp;rsquo;ll try to post weekly updates, so definitely stay tuned.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a Computer Science student at San Francisco State University and I have a passion for using programming to build cool stuff and advance justice in the world. I&amp;rsquo;m an intern at a battery infrastructure company called Towa Industries, where I do everything from manufacturing to software engineering. I&amp;rsquo;m also the Chief Aviation Officer at the &lt;a href=&#34;https://fogcityrocketry.com&#34;&gt;&lt;strong&gt;SFSU Fog City Rocketry Club&lt;/strong&gt;&lt;/a&gt; where I build rockets and do other cool stuff.&lt;/p&gt;
+&lt;p&gt;I also have interests in music, WGI color guard, gaming, and other stuff. I&amp;rsquo;ll be posting about whatever interests me :)&lt;/p&gt;
+&lt;p&gt;If you want to follow my travels and exploits, definitely follow me:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[&lt;strong&gt;Instagram&lt;/strong&gt;] &lt;a href=&#34;https://www.instagram.com/iam_ethanhanlon/&#34;&gt;https://www.instagram.com/iam_ethanhanlon/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[&lt;strong&gt;GitHub&lt;/strong&gt;] &lt;a href=&#34;https://github.com/OccultSlolem&#34;&gt;https://github.com/OccultSlolem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>[Email] me@ethan-hanlon.xyz Probably the best way to reach me. [LinkedIn] https://www.linkedin.com/in/ethan-hanlon-6688491a6/ I accept connections with people I&amp;rsquo;ve met or had enough interaction with to consider a professional contact. [Discord] If we&amp;rsquo;re scheduled to meet, you can email me for my Discord. I try to keep it for people who really need to communicate with me that way. [Social Media] See about page I usually respond to DMs, but would prefer to talk through email if you&amp;rsquo;re reaching out of the blue.</description>
+      <content>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Email]&lt;/strong&gt; &lt;a href=&#34;mailto:me@ethan-hanlon.xyz&#34;&gt;me@ethan-hanlon.xyz&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Probably the best way to reach me.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[LinkedIn]&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/ethan-hanlon-6688491a6/&#34;&gt;https://www.linkedin.com/in/ethan-hanlon-6688491a6/&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;I accept connections with people I&amp;rsquo;ve met or had enough interaction with to consider a professional contact.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Discord]&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;If we&amp;rsquo;re scheduled to meet, you can email me for my Discord. I try to keep it for people who really need to communicate with me that way.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Social Media]&lt;/strong&gt; &lt;a href=&#34;https://ethan-hanlon.xyz/about&#34;&gt;See about page&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;I usually respond to DMs, but would prefer to talk through email if you&amp;rsquo;re reaching out of the blue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;pgp-key&#34;&gt;PGP Key&lt;/h1&gt;
+&lt;p&gt;If you absolutely have to encrypt or sign a message, use this key:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+iz7NNxAsPH4bHg==
+=KZmH
+-----END PGP PUBLIC KEY BLOCK-----
+&lt;/code&gt;&lt;/pre&gt;</content>
+    </item>
+    
+    <item>
       <title>SQLHammer: A SQL data generator with math</title>
       <link>/posts/sqlhammer/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
@@ -121,113 +228,6 @@ Markup Master is a service that uses GPT (Generative Pre-trained Transformer) to
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>/contact/</link>
-      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>[Email] me@ethan-hanlon.xyz Probably the best way to reach me. [LinkedIn] https://www.linkedin.com/in/ethan-hanlon-6688491a6/ I accept connections with people I&amp;rsquo;ve met or had enough interaction with to consider a professional contact. [Discord] If we&amp;rsquo;re scheduled to meet, you can email me for my Discord. I try to keep it for people who really need to communicate with me that way. [Social Media] See about page I usually respond to DMs, but would prefer to talk through email if you&amp;rsquo;re reaching out of the blue.</description>
-      <content>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[Email]&lt;/strong&gt; &lt;a href=&#34;mailto:me@ethan-hanlon.xyz&#34;&gt;me@ethan-hanlon.xyz&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Probably the best way to reach me.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[LinkedIn]&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/ethan-hanlon-6688491a6/&#34;&gt;https://www.linkedin.com/in/ethan-hanlon-6688491a6/&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;I accept connections with people I&amp;rsquo;ve met or had enough interaction with to consider a professional contact.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Discord]&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;If we&amp;rsquo;re scheduled to meet, you can email me for my Discord. I try to keep it for people who really need to communicate with me that way.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[Social Media]&lt;/strong&gt; &lt;a href=&#34;https://ethan-hanlon.xyz/about&#34;&gt;See about page&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;I usually respond to DMs, but would prefer to talk through email if you&amp;rsquo;re reaching out of the blue.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;pgp-key&#34;&gt;PGP Key&lt;/h1&gt;
-&lt;p&gt;If you absolutely have to encrypt or sign a message, use this key:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
-
-mQINBGEpRf0BEADivPDwlXhPwCPiE6g+rTZbthQtut59lXTlvZ2W6jj6W9ZkUkeu
-eCtCA7IGpNdG8FBNHFowQzKBSrmGBUGgmJ+V8zjC1VDlWtIxsHwPAG+BnL9biAwm
-AxrTZS8mOAKx82lDYNDcmfXQzegie8xUuG6CGqCq2rFpfbKzTLuo7tUkJsz86vuu
-+Ytt2QPBpsc0t4Uy7RtDwCqdONlv1f7WUGQA/8s8YbBJq7t+hy4e7CF5Mu/3Ti8L
-8nL8F/3+3iO2an4r1drBwzdHVu1nIQ1yXun5TGROoeoS2GCRY4AHLpb+bhSIseD6
-peb04lqlpAkAzXcZJEaEZWC13Zut/zUDFHB7SC4TtiJ95xotqu5ApKOmphuvp0Db
-3JKJ8F7sh2bGG3DT2eF5HdbtH3v/Jzr1aebNxqBVqbD9Nxbi7AJ5Bjn41lHRylZ1
-J2HC5SXA3nkQLwNiBRrcMQCVRC2DrQa33JX2JYZOOl5B33z0eTd2P1H7/oWoEcIm
-8T7M/24n01Wjt3mSA27K1i7UNvdtCxQvdiB9YJ9NeE7UDxKJSJckRowZ1BZv454T
-5D+hGmmrOhLp1lp2UngWvqe1tfWmSy/3t1F4dAYOXQHxjQOiFPhJmmoznQpZVOBh
-KjNDB2WhH3iZqUioKa9LPhUmAP25ksLNbe+87J3aSpkfOUCqBHah+RtvtQARAQAB
-tCJFdGhhbiBIYW5sb24gPGVoYW5sb24xOUBnbWFpbC5jb20+iQJUBBMBCAA+FiEE
-cSJzWWizrhi4Iipo5CHpO+PW2ncFAmEpRf0CGwMFCQeGHz0FCwkIBwIGFQoJCAsC
-BBYCAwECHgECF4AACgkQ5CHpO+PW2nceuw//XIqAhoWm2H7xqETizVMsZn9nDjBa
-voseJ5Jd2Jd9dYRObcZBvsuREc2HL3QiCYDopnXiucOnIgGCWu+oCXL2NofvVaUw
-iw/eustjk1AWvJhNNrIPmIaqzp3Vc8Tx1jrX2/yCW4t4xCsPiWnvjdFJ/+rPO7UB
-9V1F1+N8tq2gESvGjxfG6X9nbPUcorUrt3zOLmqWtD6m+brEHeuKUEPWUgobV1jC
-UYvjm1/ohx38neb3BsKjGT/gktBQ6kxsJmdRg2lPQ8i5dMceITzjxL3dBHRR9qpn
-ffQeh19ECGuaVOZ/UjzibdKAyJ2Rq8wsKqSVucW8J2/fpHDJdQf2Lj49EewFyqhU
-gN8KtnCvd52wr9xbBoQ0U+3NJkFlWQPjyhUV2NmVtV4Fc3NlVExlase6QU+SO0UB
-BljhpKTWCCEL5ORODUilMZfqD45MsjfLPlUagut+rHcx87MiMzSUA0E2o72rgfri
-M0xLp1tlsLGMDEQCQlHaIcKwGbxK1mxM8AwAKFqmnvrr8+N72v67MVfdxqo1o27g
-x6yQ3LwA9F0Z/GRQZ9kz4GiaYJRE01lBUAaTHThtDXeMNQ1JBfbPUm/clIvh1C/D
-7ahNi+OIM5LryRZjzvRbQ+bsEagTlnlj0OKLa4yYiPVTIIk3PWz+u4TB92N0bzjn
-g4EkEEGfmh1s5fa5Ag0EYSlF/QEQANtxAI/X1LKgMtJrElUeCJLYt5Qm5T322fcs
-b5AH9MNhHflG8R0DF7VX6VwohVmNsTtZna7ZPhh/CwtqhzNyi9v5IP493+3lKDhY
-Eqtby9u8+HsyvmQoNEBmwjEdQvsgqiB2pu+1yAKRv0QquSW9mb8huiGwxWQambvX
-v/83SWoY3CxR4dGPukfafZLe2U4OqCia7IWK4PbbmVrx0aJzvO78o3d/DXSNb9iR
-BkDzFqv16vjS/65dGogqCZLWEMtVNZSZaMwQRj/rhuz3zdI4M4AiAEqgAdhlsXyM
-2uQ+sfKOH7Vp1Omo+zIdchvELFfOTaXpZvW8zM+eciHQGaBhniYWVKM+ONA6s+lq
-dDxd5lND/CTaIq0d8lvCmqdQ/YTMg8KMUvMnuZJqlmiodB7QmrF9wG9zgaJ40QXq
-r+qvHmPmmMPiqLncyG/0qPtlCWysAvLpkmET7FXUPmvdK3TVbEwisQcwmk8tUdmZ
-c9yLqzPe94FGCIssZco8r+vhqL+5PtfMvQ3E3L2VgH/XVKWASmOAPIO85r1vv/ZP
-zoyJ55278Fy4vkojaYFPJ67VGGmn1bStEDbOQBZtGqznPTyTlhZ2x1APLaxlDhvS
-XvG01zstjIfz9xdOPOZ8luY0KIRqlLicAmgat4BnnCxrki1P1HRGWMU45mS7vhGs
-tsFgXwtpABEBAAGJAjwEGAEIACYWIQRxInNZaLOuGLgiKmjkIek749badwUCYSlF
-/QIbDAUJB4YfPQAKCRDkIek749bad/ReEADd9BDVI++Byjs6d/X9z3gdLxhwDeO4
-075EZofA664c+M9dOL9vGXsD+DBZeUGM8jRbrLR9CQDV889ugqnF3QRueMIDWxWu
-WyYTSR/U2rWfFRCWyMlUTp1RhR5f2LR7Cmr/UvapPSvaeK1532kNRv8AllGviE21
-tOFZ78OMs4FEeKUd17sQ/xXhjh/TTlpEW7awvnNne4H6y0i9RJWo9PFgLO2Ow9nY
-1RaLYijLqbuoWzY2uMQKYnrNxuj9Z2NxFOg3aanUvrHWASS2br64f0wfBokMRoCg
-afrs5ARJEtXaUMtJV0O41IhaSAJuWPcOhRo+JcW+wgwnbK4bymSvyvqD4rVSR9S6
-Z0meecIWUhUUK89hw9BfVgo8iJWMu5cRNW1I4sRcd7UABUT3rLKa6FaQ2yyuNRan
-3gFWWF2ytHc2+sPTK0W5Ccr/r/yF2LgqjXo24cet6xPC3lylSkjRkeYiY3tcvvJL
-VSzoBwFtCZLe8TcY01eCOCwlqRl22Utc40TXHCYKESz+Thr6dePaAvXQHyjkJYXF
-T1h/F33ZuadlRxYcLKmaatltg7Mu9FPwUHBR0DOS4iik9BDKTyRWNzWZPn2g0/YG
-7GMIGFHDhleEn0GoxLrExTizWc08ej677GUvbhux5jxTy0O/a0bDVlw76SWN4bcr
-iz7NNxAsPH4bHg==
-=KZmH
------END PGP PUBLIC KEY BLOCK-----
-&lt;/code&gt;&lt;/pre&gt;</content>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hi there My name is Ethan Hanlon and this is my personal blog, sudo chown ethan-hanlon. I&amp;rsquo;ll use it to talk about whatever stuff is on my mind - technical stuff, thoughts, travels, whatnot. I&amp;rsquo;ll try to post weekly updates, so definitely stay tuned.
-I&amp;rsquo;m a Computer Science student at San Francisco State University and I have a passion for using programming to build cool stuff and advance justice in the world.</description>
-      <content>&lt;h1 id=&#34;hi-there&#34;&gt;Hi there&lt;/h1&gt;
-&lt;p&gt;My name is Ethan Hanlon and this is my personal blog, sudo chown ethan-hanlon. I&amp;rsquo;ll use it to talk about whatever stuff is on my mind - technical stuff, thoughts, travels, whatnot. I&amp;rsquo;ll try to post weekly updates, so definitely stay tuned.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m a Computer Science student at San Francisco State University and I have a passion for using programming to build cool stuff and advance justice in the world. I&amp;rsquo;m a fellowship candidate at the SFSU Innovation Entrepeneurship Fellowship Program, which allowed me to found my own company, Politifi (&lt;a href=&#34;https://politifi.io&#34;&gt;https://politifi.io&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;I also have interests in music, WGI color guard, gaming, and other stuff. I&amp;rsquo;ll be posting about whatever interests me :)&lt;/p&gt;
-&lt;p&gt;If you want to follow my travels and exploits, definitely follow me:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[&lt;strong&gt;Twitter&lt;/strong&gt;] &lt;a href=&#34;https://twitter.com/iam_EthanHanlon&#34;&gt;https://twitter.com/iam_EthanHanlon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[&lt;strong&gt;Instagram&lt;/strong&gt;] &lt;a href=&#34;https://www.instagram.com/iam_ethanhanlon/&#34;&gt;https://www.instagram.com/iam_ethanhanlon/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[&lt;strong&gt;GitHub&lt;/strong&gt;] &lt;a href=&#34;https://github.com/OccultSlolem&#34;&gt;https://github.com/OccultSlolem&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    
-    <item>
       <title>Hello, World!</title>
       <link>/posts/hello/</link>
       <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
@@ -245,7 +245,8 @@ I&amp;rsquo;m a Computer Science student at San Francisco State University and I
       
       <guid>/showcase/</guid>
       <description>Here&amp;rsquo;s some of the stuff I&amp;rsquo;ve made. I&amp;rsquo;ll update this as I go along.
-Markup Master [Status] Live [Platform] Web [Website] https://markupmaster.xyz [Discord] https://discord.gg/Ar3vguwN3f Markup Master is a GPT-Based HTML, CSS, and JavaScript generator. It&amp;rsquo;s a pretty awesome system - you just tell it what you want to make (for example, &amp;ldquo;A pong clone&amp;rdquo; or &amp;ldquo;A blog with a modern UI&amp;rdquo;) and it builds you all the code you need to get started.</description>
+Markup Master [Status] Live [Platform] Web [Website] https://markupmaster.xyz [Discord] https://discord.gg/Ar3vguwN3f Blog post
+Markup Master is a GPT-Based HTML, CSS, and JavaScript generator. It&amp;rsquo;s a pretty awesome system - you just tell it what you want to make (for example, &amp;ldquo;A pong clone&amp;rdquo; or &amp;ldquo;A blog with a modern UI&amp;rdquo;) and it builds you all the code you need to get started.</description>
       <content>&lt;p&gt;Here&amp;rsquo;s some of the stuff I&amp;rsquo;ve made. I&amp;rsquo;ll update this as I go along.&lt;/p&gt;
 &lt;h2 id=&#34;markup-master&#34;&gt;Markup Master&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/markupmaster.png?alt=media&amp;amp;token=b1074740-7e5a-440c-bbff-fe5927bd9a65&#34; alt=&#34;Markup Masketer Logo&#34;&gt;&lt;/p&gt;
@@ -256,8 +257,18 @@ Markup Master [Status] Live [Platform] Web [Website] https://markupmaster.xyz [D
 &lt;li&gt;&lt;strong&gt;[Website]&lt;/strong&gt; &lt;a href=&#34;https://markupmaster.xyz&#34;&gt;https://markupmaster.xyz&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[Discord]&lt;/strong&gt; &lt;a href=&#34;https://discord.gg/Ar3vguwN3f&#34;&gt;https://discord.gg/Ar3vguwN3f&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;/posts/markupmaster&#34;&gt;Blog post&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Markup Master is a GPT-Based HTML, CSS, and JavaScript generator. It&amp;rsquo;s a pretty awesome system - you just tell it what you want to make (for example, &amp;ldquo;A pong clone&amp;rdquo; or &amp;ldquo;A blog with a modern UI&amp;rdquo;) and it builds you all the code you need to get started. It&amp;rsquo;s all in vanilla, so you don&amp;rsquo;t need to fuss around with frameworks or anything to get started, though I plan to add support for creating websites on the React, Vue, and (my personal favorite) Svelte frameworks in the near future.&lt;/p&gt;
 &lt;p&gt;I built this thing because I can tell you from experience that it is so  easy to fall into creative block when you&amp;rsquo;re starting to build a website. I built a &lt;a href=&#34;https://devpost.com/software/leviathan-fe6g7l&#34;&gt;very rough version&lt;/a&gt; of the system over a weekend for Stanford&amp;rsquo;s TreeHacks hackathon and have since refined it into the version it is today. While it is still in beta, I plan to add more features including additional frameworks to build for, deploying websites straight from the service, and creating a repository for you to put straight into your GitHub or Git provider of your choice.&lt;/p&gt;
+&lt;h2 id=&#34;sqlhammer&#34;&gt;SQLHammer&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/BlogImages%2FScreenshot%202023-06-09%20at%2012.08.23%20PM.png?alt=media&#34; alt=&#34;SQLHammer Screenshot&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;[Status]&lt;/strong&gt; Live&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Platform]&lt;/strong&gt; CLI&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[GitHub]&lt;/strong&gt;(&lt;a href=&#34;https://github.com/OccultSlolem/SQLHammer&#34;&gt;https://github.com/OccultSlolem/SQLHammer&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;/posts/sqlhammer&#34;&gt;Blog post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;SQLHammer is a command line tool written in Python that can take a given template and structure a SQLite database around it. The real kicker is that you can insert mathematical models and introduce random variance into your data. This is a tool I built for a project I was working on at work, and I figured it would be useful to others as well.&lt;/p&gt;
 &lt;h2 id=&#34;politifi&#34;&gt;Politifi&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.politifi.io/assets/Politifi_SVG_White_Text.svg&#34; alt=&#34;Politifi Logo&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
