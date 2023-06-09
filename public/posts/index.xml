@@ -7,7 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Ethan Hanlon, 2023</copyright>
-    <lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQLHammer: A SQL data generator with math</title>
+      <link>/posts/sqlhammer/</link>
+      <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/sqlhammer/</guid>
+      <description>SQLHammer Link: https://github.com/OccultSlolem/SQLHammer
+Recently I&amp;rsquo;ve been working on some AI-based technology for work. Of course, in order to generate an AI model, you need a whole ton of data to base it off of. The tough thing was that, given how busy we were trying to move product, I didn&amp;rsquo;t have enough time to build that dataset. So I figured, let&amp;rsquo;s just build the functionality around some dummy data and build the product around that.</description>
+      <content>&lt;p&gt;&lt;strong&gt;SQLHammer Link:&lt;/strong&gt; &lt;a href=&#34;https://github.com/OccultSlolem/SQLHammer&#34;&gt;https://github.com/OccultSlolem/SQLHammer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Recently I&amp;rsquo;ve been working on some AI-based technology for work. Of course, in order to generate an AI model, you need a whole ton of data to base it off of. The tough thing was that, given how busy we were trying to move product, I didn&amp;rsquo;t have enough time to build that dataset. So I figured, let&amp;rsquo;s just build the functionality around some dummy data and build the product around that. I needed a lot of data quickly, so instead of spending hours hammering out thousands of INSERT INTO statements I decided to spend hours building &lt;strong&gt;SQLHammer&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;SQLHammer is a command line tool written in Python that can take a given template and structure a SQLite database around it. The real kicker is that you can insert mathematical models and introduce random variance into your data. The template and equations are fed in through a JSON file and the data is processed and inserted into the database. The tool is designed to be as flexible as possible, so you can use it for many different kinds of data.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an example &lt;code&gt;settings.jsonc&lt;/code&gt; (jsonc is just JSON with comments permitted) that would generate a table with y and x columns corresponding to a parabolic arc:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;database&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;para.db&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;table&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;para&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;columns&amp;#34;&lt;/span&gt;: [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;y&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;x&amp;#34;&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;column_types&amp;#34;&lt;/span&gt;: [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;REAL&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;REAL&amp;#34;&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;iterations&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;constants&amp;#34;&lt;/span&gt;: [], &lt;span style=&#34;color:#75715e&#34;&gt;// none needed here
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;equations&amp;#34;&lt;/span&gt;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PARABOLA&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;variables&amp;#34;&lt;/span&gt;: [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;x&amp;#34;&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;equation&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;x^2&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;variance&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;0.0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ],
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;template&amp;#34;&lt;/span&gt;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;y&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;EQUATION_PARABOLA&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;&amp;#34;x&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;INCREMENT_FROM_-10&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If that seems kinda arcane, I totally get it since I primarily made it for the purpose of my project. Still, the basic points are something like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We write it into a SQLite file called &lt;code&gt;para.db&lt;/code&gt;, inserting all data into the &lt;code&gt;para&lt;/code&gt; table.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;para&lt;/code&gt; table has columns &lt;code&gt;y&lt;/code&gt; and &lt;code&gt;x&lt;/code&gt;, both of type &lt;code&gt;REAL&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;We define an equation called &lt;code&gt;PARABOLA&lt;/code&gt; that takes in a variable &lt;code&gt;x&lt;/code&gt; and returns &lt;code&gt;x^2&lt;/code&gt; with no variance.&lt;/li&gt;
+&lt;li&gt;We define a template that inserts the &lt;code&gt;PARABOLA&lt;/code&gt; equation into the &lt;code&gt;y&lt;/code&gt; column and increments the &lt;code&gt;x&lt;/code&gt; column from -10.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If we had given some variance, it would&amp;rsquo;ve added a random value plus or minus the variance amount for each step.&lt;/p&gt;
+&lt;p&gt;Running the program with this setup, we are first asked what the lower and upper bounds of the data are, as you can see in the screenshot. Running it from -10 to 10, we get a dataset that looks something like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sqlite3 para.db
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sqlite&amp;gt; SELECT * FROM para;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y           x
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;----------  ----------
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;100.0       -10.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;81.0        -9.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;64.0        -8.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;49.0        -7.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;36.0        -6.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;25.0        -5.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;16.0        -4.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;9.0         -3.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;4.0         -2.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1.0         -1.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;0.0         0.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1.0         1.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;4.0         2.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;9.0         3.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;16.0        4.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;25.0        5.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;36.0        6.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;49.0        7.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;64.0        8.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;81.0        9.0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;100.0       10.0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Kinda neat, huh?&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s still a good amount of jank &lt;del&gt;and I&amp;rsquo;m totally gonna get around to writing the tests some day&lt;/del&gt; but I&amp;rsquo;m pretty happy with how it turned out. I&amp;rsquo;m hoping to add more features to it in the future. Currently only SQLite is supported, but adding support for other databases like MySQL or Postgres would be kinda cool. I&amp;rsquo;ve got this tool hammered out for my own purposes already so it&amp;rsquo;s not at the top of the agenda, but definitely something I&amp;rsquo;d like to get around to some time.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in using SQLHammer, you can find it on &lt;a href=&#34;https://github.com/OccultSlolem/SQLHammer&#34;&gt;GitHub&lt;/a&gt;. Feel free to open an issue or pull request if you have any suggestions or bug fixes. I&amp;rsquo;m always happy to make my code more useful for others :)&lt;/p&gt;
+</content>
+    </item>
+    
     <item>
       <title>Markup Master: GPT, HTML, and Asking Nicely</title>
       <link>/posts/markupmaster/</link>

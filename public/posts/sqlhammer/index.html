@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>SQLHammer: A SQL data generator with math :: sudo chown ethan-hanlon</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SQLHammer Link: https://github.com/OccultSlolem/SQLHammer
+Recently I&amp;rsquo;ve been working on some AI-based technology for work. Of course, in order to generate an AI model, you need a whole ton of data to base it off of. The tough thing was that, given how busy we were trying to move product, I didn&amp;rsquo;t have enough time to build that dataset. So I figured, let&amp;rsquo;s just build the functionality around some dummy data and build the product around that." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/posts/sqlhammer/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/pink.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="/img/favicon/pink.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="https://ethan-hanlon.xyz" />
+  
+    <meta name="twitter:creator" content="Ethan Hanlon" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="SQLHammer: A SQL data generator with math">
+<meta property="og:description" content="SQLHammer Link: https://github.com/OccultSlolem/SQLHammer
+Recently I&amp;rsquo;ve been working on some AI-based technology for work. Of course, in order to generate an AI model, you need a whole ton of data to base it off of. The tough thing was that, given how busy we were trying to move product, I didn&amp;rsquo;t have enough time to build that dataset. So I figured, let&amp;rsquo;s just build the functionality around some dummy data and build the product around that." />
+<meta property="og:url" content="/posts/sqlhammer/" />
+<meta property="og:site_name" content="sudo chown ethan-hanlon" />
+
+  <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/BlogImages%2FScreenshot%202023-06-09%20at%2012.08.23%20PM.png?alt=media">
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2023-06-09 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="pink">
+
+
+<div class="container headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    sudo chown ethan-hanlon
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/contact">Contact</a></li>
+        
+      
+      
+        <ul class="menu__sub-inner">
+          <li class="menu__sub-inner-more-trigger">Show more ▾</li>
+
+          <ul class="menu__sub-inner-more hidden">
+            
+              
+                <li><a href="/showcase">Showcase</a></li>
+              
+            
+          </ul>
+        </ul>
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/contact">Contact</a></li>
+      
+    
+      
+        <li><a href="/showcase">Showcase</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/posts/sqlhammer/">SQLHammer: A SQL data generator with math</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2023-06-09 
+      </span>
+    
+    
+    <span class="post-author">:: Ethan Hanlon</span>
+    
+  </div>
+
+  
+
+  
+    <img src="https://firebasestorage.googleapis.com/v0/b/hanlon-blog.appspot.com/o/BlogImages%2FScreenshot%202023-06-09%20at%2012.08.23%20PM.png?alt=media" class="post-cover" alt="SQLHammer: A SQL data generator with math" />
+  
+
+  
+
+  <div class="post-content"><div>
+        <p><strong>SQLHammer Link:</strong> <a href="https://github.com/OccultSlolem/SQLHammer">https://github.com/OccultSlolem/SQLHammer</a></p>
+<p>Recently I&rsquo;ve been working on some AI-based technology for work. Of course, in order to generate an AI model, you need a whole ton of data to base it off of. The tough thing was that, given how busy we were trying to move product, I didn&rsquo;t have enough time to build that dataset. So I figured, let&rsquo;s just build the functionality around some dummy data and build the product around that. I needed a lot of data quickly, so instead of spending hours hammering out thousands of INSERT INTO statements I decided to spend hours building <strong>SQLHammer</strong>.</p>
+<p>SQLHammer is a command line tool written in Python that can take a given template and structure a SQLite database around it. The real kicker is that you can insert mathematical models and introduce random variance into your data. The template and equations are fed in through a JSON file and the data is processed and inserted into the database. The tool is designed to be as flexible as possible, so you can use it for many different kinds of data.</p>
+<p>Here&rsquo;s an example <code>settings.jsonc</code> (jsonc is just JSON with comments permitted) that would generate a table with y and x columns corresponding to a parabolic arc:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;database&#34;</span>: <span style="color:#e6db74">&#34;para.db&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;table&#34;</span>: <span style="color:#e6db74">&#34;para&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;columns&#34;</span>: [<span style="color:#e6db74">&#34;y&#34;</span>, <span style="color:#e6db74">&#34;x&#34;</span>],
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;column_types&#34;</span>: [<span style="color:#e6db74">&#34;REAL&#34;</span>, <span style="color:#e6db74">&#34;REAL&#34;</span>],
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;iterations&#34;</span>: <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;constants&#34;</span>: [], <span style="color:#75715e">// none needed here
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">&#34;equations&#34;</span>: [
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;PARABOLA&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;variables&#34;</span>: [<span style="color:#e6db74">&#34;x&#34;</span>],
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;equation&#34;</span>: <span style="color:#e6db74">&#34;x^2&#34;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&#34;variance&#34;</span>: <span style="color:#ae81ff">0.0</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ],
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;template&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;y&#34;</span>: <span style="color:#e6db74">&#34;EQUATION_PARABOLA&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&#34;x&#34;</span>: <span style="color:#e6db74">&#34;INCREMENT_FROM_-10&#34;</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>If that seems kinda arcane, I totally get it since I primarily made it for the purpose of my project. Still, the basic points are something like:</p>
+<ul>
+<li>We write it into a SQLite file called <code>para.db</code>, inserting all data into the <code>para</code> table.</li>
+<li>The <code>para</code> table has columns <code>y</code> and <code>x</code>, both of type <code>REAL</code>.</li>
+<li>We define an equation called <code>PARABOLA</code> that takes in a variable <code>x</code> and returns <code>x^2</code> with no variance.</li>
+<li>We define a template that inserts the <code>PARABOLA</code> equation into the <code>y</code> column and increments the <code>x</code> column from -10.</li>
+</ul>
+<p>If we had given some variance, it would&rsquo;ve added a random value plus or minus the variance amount for each step.</p>
+<p>Running the program with this setup, we are first asked what the lower and upper bounds of the data are, as you can see in the screenshot. Running it from -10 to 10, we get a dataset that looks something like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sqlite3 para.db
+</span></span><span style="display:flex;"><span>sqlite&gt; SELECT * FROM para;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>y           x
+</span></span><span style="display:flex;"><span>----------  ----------
+</span></span><span style="display:flex;"><span>100.0       -10.0
+</span></span><span style="display:flex;"><span>81.0        -9.0
+</span></span><span style="display:flex;"><span>64.0        -8.0
+</span></span><span style="display:flex;"><span>49.0        -7.0
+</span></span><span style="display:flex;"><span>36.0        -6.0
+</span></span><span style="display:flex;"><span>25.0        -5.0
+</span></span><span style="display:flex;"><span>16.0        -4.0
+</span></span><span style="display:flex;"><span>9.0         -3.0
+</span></span><span style="display:flex;"><span>4.0         -2.0
+</span></span><span style="display:flex;"><span>1.0         -1.0
+</span></span><span style="display:flex;"><span>0.0         0.0
+</span></span><span style="display:flex;"><span>1.0         1.0
+</span></span><span style="display:flex;"><span>4.0         2.0
+</span></span><span style="display:flex;"><span>9.0         3.0
+</span></span><span style="display:flex;"><span>16.0        4.0
+</span></span><span style="display:flex;"><span>25.0        5.0
+</span></span><span style="display:flex;"><span>36.0        6.0
+</span></span><span style="display:flex;"><span>49.0        7.0
+</span></span><span style="display:flex;"><span>64.0        8.0
+</span></span><span style="display:flex;"><span>81.0        9.0
+</span></span><span style="display:flex;"><span>100.0       10.0
+</span></span></code></pre></div><p>Kinda neat, huh?</p>
+<p>There&rsquo;s still a good amount of jank <del>and I&rsquo;m totally gonna get around to writing the tests some day</del> but I&rsquo;m pretty happy with how it turned out. I&rsquo;m hoping to add more features to it in the future. Currently only SQLite is supported, but adding support for other databases like MySQL or Postgres would be kinda cool. I&rsquo;ve got this tool hammered out for my own purposes already so it&rsquo;s not at the top of the agenda, but definitely something I&rsquo;d like to get around to some time.</p>
+<p>If you&rsquo;re interested in using SQLHammer, you can find it on <a href="https://github.com/OccultSlolem/SQLHammer">GitHub</a>. Feel free to open an issue or pull request if you have any suggestions or bug fixes. I&rsquo;m always happy to make my code more useful for others :)</p>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="/posts/markupmaster/">
+                <span class="button__text">Markup Master: GPT, HTML, and Asking Nicely</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>© Ethan Hanlon, 2023</span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
